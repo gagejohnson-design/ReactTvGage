@@ -1,19 +1,4 @@
-/**
- * @typedef Episode
- * @property {number} number The episode number.
- * @property {string} title The episode title.
- * @property {string} description A brief description of the episode.
- */
-
-/**
- * @typedef Show
- * @property {string} name The name of the TV show.
- * @property {string} genre The genre of the TV show.
- * @property {Episode[]} episodes A list of episodes for the TV show.
- */
-
-/** @type {Show[]} */
-export const tvShows = [
+const tvShows = [
   {
     name: "Galactic Odyssey",
     genre: "Sci-Fi",
@@ -246,3 +231,5 @@ export const tvShows = [
     ],
   },
 ];
+
+export default tvShows;
